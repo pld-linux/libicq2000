@@ -1,12 +1,12 @@
 Summary:	libicq2000 library
 Summary(pl):	Biblioteka libicq2000
 Name:		libicq2000
-Version:	0.3.1
+Version:	0.3.2
 Release:	1
 License:	LGPL
 Group:		Libraries
-Source0:	http://telia.dl.sourceforge.net/sourceforge/libicq2000/%{name}-%{version}.tar.gz
-# Source0-md5:	62cca3234d1575af90ab96dc60f73ba6
+Source0:	http://dl.sourceforge.net/sourceforge/libicq2000/%{name}-%{version}.tar.gz
+# Source0-md5:	bab0e61b540258e54eb1c3695ac75f6e
 URL:		http://libicq2000.sf.net/
 BuildRequires:	libsigc++1-devel
 BuildRequires:	libstdc++-devel
