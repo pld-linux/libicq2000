@@ -5,7 +5,7 @@ Version:	0.3.2
 Release:	1
 License:	LGPL
 Group:		Libraries
-Source0:	http://dl.sourceforge.net/sourceforge/libicq2000/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/libicq2000/%{name}-%{version}.tar.gz
 # Source0-md5:	bab0e61b540258e54eb1c3695ac75f6e
 URL:		http://libicq2000.sf.net/
 BuildRequires:	libsigc++1-devel
