@@ -7,7 +7,7 @@ License:	LGPL
 Group:		Libraries
 Source0:	http://telia.dl.sourceforge.net/sourceforge/libicq2000/%{name}-%{version}.tar.gz
 URL:		http://libicq2000.sf.net/
-BuildRequires:	libsigc++-devel
+BuildRequires:	libsigc++1-devel
 BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
