@@ -8,6 +8,7 @@ Group:		Libraries
 Source0:	http://dl.sourceforge.net/libicq2000/%{name}-%{version}.tar.gz
 # Source0-md5:	bab0e61b540258e54eb1c3695ac75f6e
 URL:		http://libicq2000.sf.net/
+BuildRequires:	automake
 BuildRequires:	libsigc++1-devel
 BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -71,11 +72,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc AUTHORS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_libdir}/lib*.so.*.*
 
 %files devel
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog NEWS README TODO
 %doc doc/html
 %attr(755,root,root) %{_bindir}/*-config
 %attr(755,root,root) %{_libdir}/lib*.so
