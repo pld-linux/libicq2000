@@ -3,7 +3,7 @@ Summary(pl):	Biblioteka libicq2000
 Name:		libicq2000
 Version:	0.3.1
 Release:	1
-License:	GPL
+License:	LGPL
 Group:		Libraries
 Source0:	http://telia.dl.sourceforge.net/sourceforge/libicq2000/%{name}-%{version}.tar.gz
 URL:		http://libicq2000.sf.net/
