@@ -78,7 +78,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc doc/html
 %attr(755,root,root) %{_bindir}/*-config
 %attr(755,root,root) %{_libdir}/lib*.so
-%attr(755,root,root) %{_libdir}/lib*.la
+%{_libdir}/lib*.la
 %{_includedir}/libicq2000
 %{_aclocaldir}/*.m4
 %{_mandir}/man1/*-config*
