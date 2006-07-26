@@ -7,7 +7,7 @@ License:	LGPL
 Group:		Libraries
 Source0:	http://dl.sourceforge.net/libicq2000/%{name}-%{version}.tar.gz
 # Source0-md5:	bab0e61b540258e54eb1c3695ac75f6e
-URL:		http://libicq2000.sf.net/
+URL:		http://libicq2000.sourceforge.net/
 BuildRequires:	automake
 BuildRequires:	libsigc++1-devel
 BuildRequires:	libstdc++-devel
