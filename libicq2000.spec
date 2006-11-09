@@ -30,7 +30,7 @@ protoko³u jest wyodrêbniona do obiektowo zorientowanego interfejsu.
 Summary:	Header files etc to develop libicq2000 applications
 Summary(pl):	Pliki nag³ówkowe do tworzenia aplikacji libicq2000
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files etc you can use to develop libicq2000 applications.
@@ -43,7 +43,7 @@ libicq2000.
 Summary:	Static libicq2000 libraries
 Summary(pl):	Statyczne biblioteki libicq2000
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libicq2000 libraries.
