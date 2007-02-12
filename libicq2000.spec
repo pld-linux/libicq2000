@@ -1,5 +1,5 @@
 Summary:	libicq2000 library
-Summary(pl):	Biblioteka libicq2000
+Summary(pl.UTF-8):   Biblioteka libicq2000
 Name:		libicq2000
 Version:	0.3.2
 Release:	1
@@ -20,35 +20,35 @@ backbone for their clients' connection to the ICQ network - all the
 protocol work is abstracted away in one nice object-orientated
 interface.
 
-%description -l pl
-libicq2000 to biblioteka C++ z otwartym kodem, tworzona do obs≥ugi
-protoko≥u icq2000/2001. Jest ≥atwa w uøyciu dla programistÛw jako
-obs≥uga po≥±czenia do sieci ICQ dla klientÛw - ca≥o∂Ê obs≥ugi
-protoko≥u jest wyodrÍbniona do obiektowo zorientowanego interfejsu.
+%description -l pl.UTF-8
+libicq2000 to biblioteka C++ z otwartym kodem, tworzona do obs≈Çugi
+protoko≈Çu icq2000/2001. Jest ≈Çatwa w u≈ºyciu dla programist√≥w jako
+obs≈Çuga po≈ÇƒÖczenia do sieci ICQ dla klient√≥w - ca≈Ço≈õƒá obs≈Çugi
+protoko≈Çu jest wyodrƒôbniona do obiektowo zorientowanego interfejsu.
 
 %package devel
 Summary:	Header files etc to develop libicq2000 applications
-Summary(pl):	Pliki nag≥Ûwkowe do tworzenia aplikacji libicq2000
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe do tworzenia aplikacji libicq2000
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 Header files etc you can use to develop libicq2000 applications.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe s≥uø±ce do tworzenia aplikacji opartych na
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe s≈Çu≈ºƒÖce do tworzenia aplikacji opartych na
 libicq2000.
 
 %package static
 Summary:	Static libicq2000 libraries
-Summary(pl):	Statyczne biblioteki libicq2000
+Summary(pl.UTF-8):   Statyczne biblioteki libicq2000
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libicq2000 libraries.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczne biblioteki libicq2000.
 
 %prep
