@@ -1,5 +1,5 @@
 Summary:	libicq2000 library
-Summary(pl.UTF-8):   Biblioteka libicq2000
+Summary(pl.UTF-8):	Biblioteka libicq2000
 Name:		libicq2000
 Version:	0.3.2
 Release:	1
@@ -28,7 +28,7 @@ protokołu jest wyodrębniona do obiektowo zorientowanego interfejsu.
 
 %package devel
 Summary:	Header files etc to develop libicq2000 applications
-Summary(pl.UTF-8):   Pliki nagłówkowe do tworzenia aplikacji libicq2000
+Summary(pl.UTF-8):	Pliki nagłówkowe do tworzenia aplikacji libicq2000
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -41,7 +41,7 @@ libicq2000.
 
 %package static
 Summary:	Static libicq2000 libraries
-Summary(pl.UTF-8):   Statyczne biblioteki libicq2000
+Summary(pl.UTF-8):	Statyczne biblioteki libicq2000
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
